@@ -1,40 +1,65 @@
 import React from "react"
 import styled from "styled-components"
+import diamond from "../images/diamond.jpg"
+import { Link } from "react-router-dom"
 
-const Nav = styled.div`
+const Wrapper = styled.div`
+  width: 100%;
+  background-color: #f4bbff;
+
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   flex-direction: row;
-  padding: 35px;
-  background: purple;
-  justify-content: space-evenly;
-`
-const Anchor = styled.a`
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-  &:nth-child(1) {
-    text-align: left;
-    margin-right: 75px;
+
+  img {
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
   }
-  &:nth-child(2) {
-    text-align: right;
-  }
-  &:nth-child(3) {
-    text-align: right;
+
+  a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
   }
 `
 
-class NavBar extends React.Component {
-  render() {
-    return (
-      <Nav>
-        <img src="../images/capture" />
-        <Anchor href="#">Shelby Diamond</Anchor>
-        <Anchor href="#">About</Anchor>
-        <Anchor href="#">Projects</Anchor>
-      </Nav>
-    )
+const LogoWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  h1 {
+    color: #fff;
+    font-size: 2rem;
+    width: 30%;
   }
+`
+
+const Navigation = styled.nav`
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+`
+
+const NavBar = () => {
+  return (
+    <Wrapper>
+      <LogoWrapper>
+        <a href="#">
+          <img src={diamond} alt="logo" />
+        </a>
+        <h1>Shelby Diamond</h1>
+      </LogoWrapper>
+
+      <Navigation>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </Navigation>
+    </Wrapper>
+  )
 }
+
 export default NavBar
