@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import diamond from "../images/diamond.jpg"
+import diamond from "../images/diamond.png"
 import { Link } from "react-router-dom"
 
 const Wrapper = styled.div`
@@ -12,8 +12,8 @@ const Wrapper = styled.div`
   flex-direction: row;
 
   img {
-    width: 60px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
     border-radius: 5px;
   }
 
@@ -47,9 +47,9 @@ const NavBar = () => {
   return (
     <Wrapper>
       <LogoWrapper>
-        <a href="#">
+        <Link to="/">
           <img src={diamond} alt="logo" />
-        </a>
+        </Link>
         <h1>Shelby Diamond</h1>
       </LogoWrapper>
 
