@@ -5,11 +5,18 @@ import { Link } from "react-router-dom"
 
 const Wrapper = styled.div`
   width: 100%;
-  background-color: #f4bbff;
-
+  background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  @media (max-width: 750px) {
+    flex-direction: column;
+    background: black;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    flex-flow: column nowrap;
+  }
 
   img {
     width: 70px;
@@ -21,6 +28,9 @@ const Wrapper = styled.div`
     font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
+    @media (max-width: 750px) {
+      flex-flow: column nowrap;
+    }
   }
 `
 
@@ -33,6 +43,10 @@ const LogoWrapper = styled.div`
     color: #fff;
     font-size: 2rem;
     width: 30%;
+    @media (max-width: 750px) {
+      width: 100%;
+      flex-direction: column;
+    }
   }
 `
 

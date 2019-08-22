@@ -1,9 +1,21 @@
 import React from "react"
+import ToDo from "./Projects/ToDo"
+import styled from "styled-components"
+
+const Heading = styled.h1`
+  font-size: 3rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+  padding: 15px;
+`
 
 const Projects = () => {
   return (
     <div>
-      <h1>Enter content for the page here</h1>
+      <Heading>Check out some of my favorite projects!</Heading>
+      <ToDo />
     </div>
   )
 }
