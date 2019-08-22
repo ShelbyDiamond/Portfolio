@@ -1,6 +1,7 @@
 import React from "react"
 import image from "../../images/ToDoImage.png"
 import styled from "styled-components"
+
 const BigContainer = styled.div`
   border: 2px solid black;
   margin: 25px;
@@ -15,19 +16,6 @@ const Heading = styled.h2`
   display: flex;
   justify-content: center;
 `
-const Buttons = styled.a`
-  padding: 5px;
-  border: 1px solid grey;
-  background: darkcyan;
-  margin: 25px;
-  display: inline-flex;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1.2rem;
-  text-decoration: none;
-  width: 25%;
-  color: white;
-`
 
 const Image = styled.img`
   padding: 15px;
@@ -37,14 +25,30 @@ const Image = styled.img`
   justify-content: center;
   display: flex;
   margin-left: 23%;
+  width: 45%;
 `
 const Description = styled.p`
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
-  padding: 5px;
+  padding: 20px;
   margin: 5px;
   background: white;
+`
+const Buttons = styled.a`
+  padding: 11px;
+  padding-left: 9px;
+  border: 1px solid grey;
+  background: rebeccapurple;
+  margin: 25px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 25%;
+  color: white;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 `
 
 const ToDo = () => {
@@ -63,10 +67,15 @@ const ToDo = () => {
         completed.{" "}
       </Description>
       <strong>
-        <Buttons href="https://react-todo.shelbydiamond.now.sh">
+        <Buttons href="https://react-todo.shelbydiamond.now.sh" target="_blank">
           Live Site
         </Buttons>
-        <Buttons href="https://github.com/shelbydiamond">GitHub Repo</Buttons>
+        <Buttons
+          href="https://github.com/ShelbyDiamond/React-Todo"
+          target="_blank"
+        >
+          GitHub Repo
+        </Buttons>
       </strong>
     </BigContainer>
   )
