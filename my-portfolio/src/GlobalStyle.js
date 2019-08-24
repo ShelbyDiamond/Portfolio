@@ -52,6 +52,6 @@ table {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-	background-color: #f4bbff;
+	background-color: #A57DB1;
 }
 `

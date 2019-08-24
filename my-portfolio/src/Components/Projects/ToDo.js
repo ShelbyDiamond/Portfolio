@@ -4,17 +4,19 @@ import styled from "styled-components"
 
 const BigContainer = styled.div`
   border: 2px solid black;
+  padding: 10px;
   margin: 25px;
   width: 45%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: gray;
+  background-color: lightgray;
 `
 const Heading = styled.h2`
   font-size: 1.8rem;
   display: flex;
   justify-content: center;
+  text-align: center;
 `
 
 const Image = styled.img`
@@ -31,9 +33,10 @@ const Description = styled.p`
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 15px;
   margin: 5px;
   background: white;
+  text-align: center;
 `
 const Buttons = styled.a`
   padding: 11px;
@@ -48,6 +51,7 @@ const Buttons = styled.a`
   text-decoration: none;
   width: 25%;
   color: white;
+  text-align: center;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 `
 
