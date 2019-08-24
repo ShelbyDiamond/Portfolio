@@ -6,11 +6,14 @@ const BigContainer = styled.div`
   border: 2px solid black;
   padding: 10px;
   margin: 25px;
-  width: 45%;
+  margin-left: 120px;
+  margin-bottom: 65px;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: lightgray;
+  align-content: center;
 `
 const Heading = styled.h2`
   font-size: 1.8rem;

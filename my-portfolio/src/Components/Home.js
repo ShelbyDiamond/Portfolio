@@ -1,9 +1,14 @@
 import React from "react"
+import NavBar from "./NavBar"
 
 const Home = () => {
   return (
     <div>
-      <h1>Enter content for the page here</h1>
+      <p>SD IMAGE LOGO</p>
+      <h1>Shelby Diamond</h1>
+      <p>About</p>
+      <p>Projects</p>
+      <p>Contact</p>
     </div>
   )
 }

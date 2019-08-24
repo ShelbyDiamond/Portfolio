@@ -64,7 +64,9 @@ const NavBar = () => {
         <Link to="/">
           <img src={diamond} alt="logo" />
         </Link>
-        <h1>Shelby Diamond</h1>
+        <Link to="/">
+          <h1>Shelby Diamond</h1>
+        </Link>
       </LogoWrapper>
 
       <Navigation>

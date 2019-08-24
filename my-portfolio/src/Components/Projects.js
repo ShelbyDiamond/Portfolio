@@ -16,6 +16,9 @@ const Projects = () => {
     <div>
       <Heading>Check out some of my favorite projects!</Heading>
       <ToDo />
+      <ToDo />
+      <ToDo />
+      <ToDo />
     </div>
   )
 }
