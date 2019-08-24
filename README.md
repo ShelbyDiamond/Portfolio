@@ -2,7 +2,7 @@
 
 <h1 align="center">Welcome to My Portfolio 👋</h1>
 <p>
-  <a href="https://twitter.com/Shelby_NDiamond">
+  <a href="https://twitter.com/ShelbyN_Diamond">
     <img alt="Twitter: ShelbyN_Diamond" src="https://img.shields.io/twitter/follow/ShelbyN_Diamond.svg?style=social" target="_blank" />
   </a>
 </p>
@@ -22,7 +22,7 @@ Everything in this portfoio I built from scratch using only the react library. A
 - LinkedIn: [@shelby-diamond](https://www.linkedin.com/in/shelby-diamond-95b64091/)
 - Twitter: [@ShelbyN_Diamond](https://twitter.com/Shelby_NDiamond)
 - Github: [@ShelbyDiamond](https://github.com/ShelbyDiamond)
-- Portfoio: (shelbydiamond.com)
+- Portfoio: shelbydiamond.com
 - Resume: Will post link here
 
 ## Show your support
