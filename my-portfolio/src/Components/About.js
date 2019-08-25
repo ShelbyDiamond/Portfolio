@@ -1,5 +1,5 @@
 import React from "react"
-import HeadShot from "../images/Headshot518.png"
+import HeadShot from "../images/HeadShot.png"
 import styled from "styled-components"
 
 const ParentDiv = styled.div`
@@ -12,11 +12,12 @@ const ParentDiv = styled.div`
 const Image = styled.img`
   width: 500px;
   height: auto;
-  border-radius: 75%;
+  border-radius: 80%;
   display: inline-flex;
   text-align: right;
   align-items: baseline;
   align-content: center;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
 `
 const Sentence = styled.p`
   font-size: 3rem;
@@ -40,57 +41,49 @@ const About = () => {
     <div>
       <ParentDiv>
         <Image src={HeadShot} alt="Professional headshot" />
-        <Sentence>
-          Put a sentence about being a Full Stack Web Developer
-        </Sentence>
+        <Sentence>Full Stack Developer</Sentence>
       </ParentDiv>
       <Paragraphs>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor optio
-        quod possimus nesciunt. Cupiditate, officia dolor! Excepturi ut fugiat
-        deleniti omnis. Dicta, optio hic laudantium cumque ab delectus beatae
-        expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Doloribus sit illum, reprehenderit esse odio repellendus, quis fuga
-        laboriosam nobis fugit accusamus iste dolorum sapiente? Voluptatibus, ea
-        nihil non consequatur ratione veniam saepe molestiae ex? Aspernatur
-        consequuntur aut in.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+        aspernatur ut rerum aliquam, deserunt animi error blanditiis fugit eius
+        accusantium sapiente omnis labore reprehenderit dolorem facere,
+        architecto eaque ullam, magni quas aut earum. Esse tempore animi
+        incidunt dicta voluptatibus nam distinctio, cumque facere officiis
+        aperiam nobis doloribus consequuntur a eos obcaecati culpa eligendi
+        alias unde perferendis eveniet eum molestias maxime? Voluptas rerum
+        facere tenetur, optio corrupti placeat a ipsa assumenda, odit rem hic
+        dolor. Nam iure tempora nemo? Ut sapiente natus quae similique! Ducimus
+        eligendi soluta, consequatur natus voluptatum excepturi, perspiciatis
+        inventore necessitatibus obcaecati, consequuntur at laudantium aliquid
+        rem autem.
       </Paragraphs>
       <Paragraphs>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit
-        illum, reprehenderit esse odio repellendus, quis fuga laboriosam nobis
-        fugit accusamus iste dolorum sapiente? Voluptatibus, ea nihil non
-        consequatur ratione veniam saepe molestiae ex? Aspernatur consequuntur
-        aut in. Explicabo veniam voluptate iste totam, asperiores et laboriosam
-        similique delectus non dicta! Nam delectus quas officia suscipit quo
-        vitae recusandae necessitatibus labore nihil maiores enim temporibus
-        nulla quis provident eligendi, qui accusamus excepturi tenetur, mollitia
-        eius impedit? A porro odit facilis id, quaerat voluptas nulla corrupti
-        consequuntur voluptatem minus, dolorem, blanditiis provident reiciendis.
-        Totam neque deserunt aut illum maxime facere, unde veritatis dolor rem
-        labore. Inventore, distinctio assumenda et ex obcaecati illo dignissimos
-        quaerat. Deleniti harum, veritatis dolorum, neque ipsa nesciunt minus
-        dolorem accusantium magnam officia, eaque inventore non nihil omnis
-        quam? Esse consequuntur hic eos assumenda, culpa numquam ut qui.
-        Pariatur omnis eligendi aspernatur cum, beatae eum soluta doloremque
-        repudiandae placeat.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+        aspernatur ut rerum aliquam, deserunt animi error blanditiis fugit eius
+        accusantium sapiente omnis labore reprehenderit dolorem facere,
+        architecto eaque ullam, magni quas aut earum. Esse tempore animi
+        incidunt dicta voluptatibus nam distinctio, cumque facere officiis
+        aperiam nobis doloribus consequuntur a eos obcaecati culpa eligendi
+        alias unde perferendis eveniet eum molestias maxime? Voluptas rerum
+        facere tenetur, optio corrupti placeat a ipsa assumenda, odit rem hic
+        dolor. Nam iure tempora nemo? Ut sapiente natus quae similique! Ducimus
+        eligendi soluta, consequatur natus voluptatum excepturi, perspiciatis
+        inventore necessitatibus obcaecati, consequuntur at laudantium aliquid
+        rem autem.
       </Paragraphs>
       <Paragraphs>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit
-        illum, reprehenderit esse odio repellendus, quis fuga laboriosam nobis
-        fugit accusamus iste dolorum sapiente? Voluptatibus, ea nihil non
-        consequatur ratione veniam saepe molestiae ex? Aspernatur consequuntur
-        aut in. Explicabo veniam voluptate iste totam, asperiores et laboriosam
-        similique delectus non dicta! Nam delectus quas officia suscipit quo
-        vitae recusandae necessitatibus labore nihil maiores enim temporibus
-        nulla quis provident eligendi, qui accusamus excepturi tenetur, mollitia
-        eius impedit? A porro odit facilis id, quaerat voluptas nulla corrupti
-        consequuntur voluptatem minus, dolorem, blanditiis provident reiciendis.
-        Totam neque deserunt aut illum maxime facere, unde veritatis dolor rem
-        labore. Inventore, distinctio assumenda et ex obcaecati illo dignissimos
-        quaerat. Deleniti harum, veritatis dolorum, neque ipsa nesciunt minus
-        dolorem accusantium magnam officia, eaque inventore non nihil omnis
-        quam? Esse consequuntur hic eos assumenda, culpa numquam ut qui.
-        Pariatur omnis eligendi aspernatur cum, beatae eum soluta doloremque
-        repudiandae placeat.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+        aspernatur ut rerum aliquam, deserunt animi error blanditiis fugit eius
+        accusantium sapiente omnis labore reprehenderit dolorem facere,
+        architecto eaque ullam, magni quas aut earum. Esse tempore animi
+        incidunt dicta voluptatibus nam distinctio, cumque facere officiis
+        aperiam nobis doloribus consequuntur a eos obcaecati culpa eligendi
+        alias unde perferendis eveniet eum molestias maxime? Voluptas rerum
+        facere tenetur, optio corrupti placeat a ipsa assumenda, odit rem hic
+        dolor. Nam iure tempora nemo? Ut sapiente natus quae similique! Ducimus
+        eligendi soluta, consequatur natus voluptatum excepturi, perspiciatis
+        inventore necessitatibus obcaecati, consequuntur at laudantium aliquid
+        rem autem.
       </Paragraphs>
     </div>
   )
