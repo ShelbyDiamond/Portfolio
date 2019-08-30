@@ -34,6 +34,8 @@ const Paragraphs = styled.p`
   color: white;
   padding: 10px;
   margin: 25px;
+  line-height: 35px;
+  width: 50%;
 `
 
 const About = () => {
@@ -41,49 +43,22 @@ const About = () => {
     <div>
       <ParentDiv>
         <Image src={HeadShot} alt="Professional headshot" />
-        <Sentence>Full Stack Developer</Sentence>
+        <Sentence>Full Stack Engineer</Sentence>
       </ParentDiv>
       <Paragraphs>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-        aspernatur ut rerum aliquam, deserunt animi error blanditiis fugit eius
-        accusantium sapiente omnis labore reprehenderit dolorem facere,
-        architecto eaque ullam, magni quas aut earum. Esse tempore animi
-        incidunt dicta voluptatibus nam distinctio, cumque facere officiis
-        aperiam nobis doloribus consequuntur a eos obcaecati culpa eligendi
-        alias unde perferendis eveniet eum molestias maxime? Voluptas rerum
-        facere tenetur, optio corrupti placeat a ipsa assumenda, odit rem hic
-        dolor. Nam iure tempora nemo? Ut sapiente natus quae similique! Ducimus
-        eligendi soluta, consequatur natus voluptatum excepturi, perspiciatis
-        inventore necessitatibus obcaecati, consequuntur at laudantium aliquid
-        rem autem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eveniet
+        esse nulla perferendis voluptates! Rerum, natus. Minus quasi eum quo est
+        repellendus magni quidem ipsam nemo esse! Quisquam, odio dicta!
       </Paragraphs>
       <Paragraphs>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-        aspernatur ut rerum aliquam, deserunt animi error blanditiis fugit eius
-        accusantium sapiente omnis labore reprehenderit dolorem facere,
-        architecto eaque ullam, magni quas aut earum. Esse tempore animi
-        incidunt dicta voluptatibus nam distinctio, cumque facere officiis
-        aperiam nobis doloribus consequuntur a eos obcaecati culpa eligendi
-        alias unde perferendis eveniet eum molestias maxime? Voluptas rerum
-        facere tenetur, optio corrupti placeat a ipsa assumenda, odit rem hic
-        dolor. Nam iure tempora nemo? Ut sapiente natus quae similique! Ducimus
-        eligendi soluta, consequatur natus voluptatum excepturi, perspiciatis
-        inventore necessitatibus obcaecati, consequuntur at laudantium aliquid
-        rem autem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eveniet
+        esse nulla perferendis voluptates! Rerum, natus. Minus quasi eum quo est
+        repellendus magni quidem ipsam nemo esse! Quisquam, odio dicta!
       </Paragraphs>
       <Paragraphs>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-        aspernatur ut rerum aliquam, deserunt animi error blanditiis fugit eius
-        accusantium sapiente omnis labore reprehenderit dolorem facere,
-        architecto eaque ullam, magni quas aut earum. Esse tempore animi
-        incidunt dicta voluptatibus nam distinctio, cumque facere officiis
-        aperiam nobis doloribus consequuntur a eos obcaecati culpa eligendi
-        alias unde perferendis eveniet eum molestias maxime? Voluptas rerum
-        facere tenetur, optio corrupti placeat a ipsa assumenda, odit rem hic
-        dolor. Nam iure tempora nemo? Ut sapiente natus quae similique! Ducimus
-        eligendi soluta, consequatur natus voluptatum excepturi, perspiciatis
-        inventore necessitatibus obcaecati, consequuntur at laudantium aliquid
-        rem autem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eveniet
+        esse nulla perferendis voluptates! Rerum, natus. Minus quasi eum quo est
+        repellendus magni quidem ipsam nemo esse! Quisquam, odio dicta!
       </Paragraphs>
     </div>
   )
