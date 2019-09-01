@@ -18,7 +18,6 @@ const Projects = () => {
       <ToDo />
       <ToDo />
       <ToDo />
-      <ToDo />
     </div>
   )
 }

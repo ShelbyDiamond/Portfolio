@@ -1,16 +1,8 @@
 import React from "react"
-import NavBar from "./NavBar"
+import styled from "styled-components"
 
 const Home = () => {
-  return (
-    <div>
-      <p>SD IMAGE LOGO</p>
-      <h1>Shelby Diamond</h1>
-      <p>About</p>
-      <p>Projects</p>
-      <p>Contact</p>
-    </div>
-  )
+  return <div></div>
 }
 
 export default Home
