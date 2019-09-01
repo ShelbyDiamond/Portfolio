@@ -9,6 +9,13 @@ const Icon = styled.img`
   height: 45px;
   padding: 15px;
 `
+const GithubIcon = styled.img`
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+  border: 1 px solid black;
+  background: white;
+`
 const Contact = () => {
   return (
     <div>
@@ -16,7 +23,7 @@ const Contact = () => {
       <p>Shelby Diamond</p>
       <p>shelbydiamond518@gmail.com</p>
 
-      <Icon src={Github} alt="Github Logo" />
+      <GithubIcon src={Github} alt="Github Logo" />
       <Icon src={Twitter} alt="Twitter Logo" />
       <Icon src={LinkedIn} alt="LinkedIn Logo" />
     </div>
