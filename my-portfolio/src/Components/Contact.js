@@ -1,46 +1,35 @@
 import React from "react"
-import Github from "../images/Github.PNG"
-import Twitter from "../images/twitter.PNG"
-import LinkedIn from "../images/LinkedIn.PNG"
-import styled from "styled-components"
+
 import {
   ParentDiv,
   InputDiv,
   HeaderDiv,
-  IconDiv,
-  GithubIcon,
-  Icon
+  H2Heading,
+  Label,
+  Input,
+  TextArea
 } from "./Styles/styles"
 
 const Contact = () => {
   return (
     <ParentDiv>
-      <HeaderDiv>
-        <h2> Let's Connect!</h2>
-      </HeaderDiv>
       <form>
+        <HeaderDiv>
+          <H2Heading> Let's Connect!</H2Heading>
+        </HeaderDiv>
         <InputDiv>
-          <label>Name:</label>
-          <input name="name" placeholder="name" required />
+          <Label>Name:</Label>
+          <Input name="name" required />
         </InputDiv>
         <InputDiv>
-          <label>Email:</label>
-          <input name="email" placeholder="email" required />
+          <Label>Email:</Label>
+          <Input name="email" required />
         </InputDiv>
         <InputDiv>
-          <label>Message: </label>
-          <textarea
-            name="message"
-            placeholder="place your message here"
-            required
-          />
+          <Label>Message: </Label>
+          <TextArea name="message" required />
         </InputDiv>
       </form>
-      <IconDiv>
-        <GithubIcon src={Github} alt="Github Logo" />
-        <Icon src={Twitter} alt="Twitter Logo" />
-        <Icon src={LinkedIn} alt="LinkedIn Logo" />
-      </IconDiv>
     </ParentDiv>
   )
 }

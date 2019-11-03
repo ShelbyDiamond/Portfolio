@@ -1,5 +1,5 @@
 import React from "react"
-import { Header, ParentDiv, Title } from "styled-components"
+import { Header, ParentDiv, Title } from "./Styles/styles"
 
 const Home = () => {
   return (

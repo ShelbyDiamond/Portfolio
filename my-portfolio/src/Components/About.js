@@ -1,7 +1,6 @@
 import React from "react"
 import HeadShot from "../images/HeadShot.png"
-import styled from "styled-components"
-import { ParentDiv1, image, Sentence, Paragraphs } from "./Styles/styles"
+import { ParentDiv1, Image, Sentence, Paragraphs } from "./Styles/styles"
 
 const About = () => {
   return (
