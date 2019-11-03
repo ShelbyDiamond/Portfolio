@@ -5,7 +5,8 @@ import {
   Description,
   Heading1,
   BigContainer,
-  Image1
+  Image1,
+  ButtonDiv
 } from "../Styles/styles"
 
 const ToDo = () => {
@@ -23,6 +24,7 @@ const ToDo = () => {
         able to use the Clear button to delete all the chores that are
         completed.{" "}
       </Description>
+      {/* <ButtonDiv> */}
       <strong>
         <Buttons href="https://react-todo.shelbydiamond.now.sh" target="_blank">
           Live Site
@@ -34,6 +36,7 @@ const ToDo = () => {
           GitHub Repo
         </Buttons>
       </strong>
+      {/* </ButtonDiv> */}
     </BigContainer>
   )
 }

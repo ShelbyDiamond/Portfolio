@@ -198,7 +198,6 @@ export const Description = styled.p`
 `
 export const Buttons = styled.a`
   padding: 11px;
-  padding-left: 9px;
   border: 1px solid grey;
   background: rebeccapurple;
   margin: 25px;
@@ -214,4 +213,35 @@ export const Buttons = styled.a`
   &:hover {
     cursor: pointer;
   }
+`
+export const ImageDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+export const Image2 = styled.img`
+  padding: 15px;
+  margin: 15px;
+  background-color: white;
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  /* justify-content: row;
+  margin-left: 18%; */
+  width: 30%;
+`
+export const Image3 = styled.img`
+  padding: 15px;
+  margin: 15px;
+  background-color: white;
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  /* justify-content: row; */
+  /* margin-right: 23%; */
+  width: 30%;
+`
+export const ButtonDiv = styled.div`
+  display: flex;
+  justify-content: center;
 `

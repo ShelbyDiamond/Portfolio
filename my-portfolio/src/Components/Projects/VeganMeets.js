@@ -1,23 +1,30 @@
 import React from "react"
-import image from "../../images/VeganMeets.PNG"
+import image2 from "../../images/VeganMeets.PNG"
+import image3 from "../../images/EndPointsVeganMeets.PNG"
 import {
   Buttons,
   Description,
   Heading1,
   BigContainer,
-  Image1
+  Image2,
+  Image3,
+  ImageDiv
 } from "../Styles/styles"
 
 const VeganMeets = () => {
   return (
     <BigContainer>
       <Heading1>Vegan Meets</Heading1>
-      <div>
-        <Image1
-          src={image}
-          alt="screen shot of my documentation to my end points"
+      <ImageDiv>
+        <Image2
+          src={image2}
+          alt="screen shot of my models (or the way the code accepts data)."
         />
-      </div>
+        <Image3
+          src={image3}
+          alt="screen shot of my models (or the way the code accepts data)."
+        />
+      </ImageDiv>
       <Description>
         In this project I used Java to create a back end database that allows
         users to register, log in, and interact with to help spread the word of
