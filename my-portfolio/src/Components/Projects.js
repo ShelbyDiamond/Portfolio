@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <div>
       <Heading>Check out some of my favorite projects!</Heading>
-      <ToDo />
       <VeganMeets />
       <ToDo />
+      <VeganMeets />
     </div>
   )
 }

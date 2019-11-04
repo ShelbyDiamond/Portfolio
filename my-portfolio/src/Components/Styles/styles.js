@@ -59,10 +59,14 @@ export const Navigation = styled.nav`
 export const Header = styled.h2`
   color: white;
   font-size: 5rem;
+  padding: 50px;
 `
 export const Title = styled.p`
   color: white;
   font-size: 2rem;
+`
+export const ParentDiv2 = styled.div`
+  display: flex;
 `
 
 ///About Page
@@ -92,15 +96,26 @@ export const Sentence = styled.p`
   align-content: center;
   margin: 15px;
   padding: 25px;
-  text-shadow: 0 0 10px #656565;
+  text-shadow: 0 0 30px #656565;
+
+  /* @keyframes glow {
+      to {
+        text-shadow: 1px 1px 2px #90b64c, 0 0 10px #90b64c;
+      }
+    }
+
+    & {
+      font-weight: bold;
+      animation: glow 0.5s infinite alternate;
+    } */
 `
 export const Paragraphs = styled.p`
   font-size: 1.4rem;
   color: white;
   padding: 10px;
-  margin: 25px;
   line-height: 35px;
   width: 50%;
+  justify-content: center;
 `
 ///Projects Page
 export const Heading = styled.h1`
@@ -156,7 +171,7 @@ export const TextArea = styled.textarea`
 `
 
 /// Projects components!!!!
-/// ****** Based on the TODO component ******
+/// ****** Based on the VeganMeets component ******
 export const BigContainer = styled.div`
   border: 2px solid black;
   padding: 10px;

@@ -1,12 +1,16 @@
 import React from "react"
-import { Header, ParentDiv, Title } from "./Styles/styles"
+import { Header, ParentDiv2, Title } from "./Styles/styles"
 
 const Home = () => {
   return (
-    <ParentDiv>
-      <Header>Shelby Diamond</Header>
-      <Title>Full Stack Developer</Title>
-    </ParentDiv>
+    <ParentDiv2>
+      <div>
+        <Header>Shelby Diamond</Header>
+      </div>
+      <div>
+        <Title>Full Stack Developer</Title>
+      </div>
+    </ParentDiv2>
   )
 }
 

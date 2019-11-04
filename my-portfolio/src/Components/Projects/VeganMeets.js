@@ -8,7 +8,8 @@ import {
   BigContainer,
   Image2,
   Image3,
-  ImageDiv
+  ImageDiv,
+  ButtonDiv
 } from "../Styles/styles"
 
 const VeganMeets = () => {
@@ -16,25 +17,23 @@ const VeganMeets = () => {
     <BigContainer>
       <Heading1>Vegan Meets</Heading1>
       <ImageDiv>
-        <Image2
-          src={image2}
-          alt="screen shot of my models (or the way the code accepts data)."
-        />
         <Image3
           src={image3}
+          alt="screen shot of my models (or the way the code accepts data)."
+        />
+        <Image2
+          src={image2}
           alt="screen shot of my models (or the way the code accepts data)."
         />
       </ImageDiv>
       <Description>
         In this project I used Java to create a back end database that allows
-        users to register, log in, and interact with to help spread the word of
-        what resturants have vegan options. As a user you can add a resturant or
-        menu item to an exisiting resturant, edit, delete, and even give a star
-        rating to each place you have tried. I was not responsible for the front
-        end work although, my team did a great job utilizing the end points I
-        built out!
+        users to spread the word of what resturants have vegan options. As a
+        user you can register, login, add a new resturant or menu item to an
+        exisiting resturant, edit or delete your own postings, and even give a
+        star rating to each place you have tried.
       </Description>
-      <strong>
+      <ButtonDiv>
         <Buttons
           href="https://vegan-meets.herokuapp.com/swagger-ui.html#/"
           target="_blank"
@@ -47,7 +46,7 @@ const VeganMeets = () => {
         >
           GitHub Repo
         </Buttons>
-      </strong>
+      </ButtonDiv>
     </BigContainer>
   )
 }

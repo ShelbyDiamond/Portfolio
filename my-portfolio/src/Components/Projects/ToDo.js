@@ -22,10 +22,9 @@ const ToDo = () => {
         completed. Once you have completed a chore you can check off that it is
         finished. When enough of them (or even one) is completed you will be
         able to use the Clear button to delete all the chores that are
-        completed.{" "}
+        completed.
       </Description>
-      {/* <ButtonDiv> */}
-      <strong>
+      <ButtonDiv>
         <Buttons href="https://react-todo.shelbydiamond.now.sh" target="_blank">
           Live Site
         </Buttons>
@@ -35,8 +34,7 @@ const ToDo = () => {
         >
           GitHub Repo
         </Buttons>
-      </strong>
-      {/* </ButtonDiv> */}
+      </ButtonDiv>
     </BigContainer>
   )
 }

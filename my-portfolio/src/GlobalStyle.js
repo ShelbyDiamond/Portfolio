@@ -51,6 +51,6 @@ table {
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ZCOOL XiaoWei', serif;
 	background-color: #A57DB1;
 }`
