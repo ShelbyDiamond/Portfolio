@@ -1,5 +1,5 @@
 import React from "react"
-import HeadShot from "../images/HeadShot.png"
+import HeadShot from "../images/Headshot.png"
 import { ParentDiv1, Image, Sentence, Paragraphs } from "./Styles/styles"
 
 const About = () => {

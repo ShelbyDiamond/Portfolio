@@ -14,14 +14,14 @@ function App() {
       <NavBar />
       <Sparkle
         color={"#FFF"}
-        count={1000}
+        count={900}
         minSize={3}
         maxSize={7}
         overflowPx={0}
         fadeOutSpeed={100}
         newSparkleOnFadeOut={true}
         flicker={true}
-        flickerSpeed={"slow"}
+        flickerSpeed={"slowest"}
       />
       <Route exact path="/" component={About} />
       <Route path="/projects" component={Projects} />
