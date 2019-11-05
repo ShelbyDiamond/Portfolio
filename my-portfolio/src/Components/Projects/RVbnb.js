@@ -1,5 +1,5 @@
 import React from "react"
-import image from "../../images/RVbnb.png"
+import image from "../../images/RVbnb.PNG"
 import {
   Buttons,
   Description,
