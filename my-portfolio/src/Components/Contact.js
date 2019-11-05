@@ -7,7 +7,9 @@ import {
   H2Heading,
   Label,
   Input,
-  TextArea
+  TextArea,
+  Button,
+  ButtonDiv
 } from "./Styles/styles"
 
 const Contact = () => {
@@ -29,6 +31,9 @@ const Contact = () => {
           <Label>Message: </Label>
           <TextArea name="message" required />
         </InputDiv>
+        <ButtonDiv>
+          <Button>Submit</Button>
+        </ButtonDiv>
       </form>
     </ParentDiv>
   )

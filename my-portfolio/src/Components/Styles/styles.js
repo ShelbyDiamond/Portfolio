@@ -170,6 +170,25 @@ export const TextArea = styled.textarea`
   width: 80%;
 `
 
+export const Button = styled.button`
+  padding: 11px;
+  border: 1px solid grey;
+  background: rebeccapurple;
+  margin: 25px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 25%;
+  color: white;
+  text-align: center;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+  &:hover {
+    cursor: pointer;
+  }
+`
+
 /// Projects components!!!!
 /// ****** Based on the VeganMeets component ******
 export const BigContainer = styled.div`
