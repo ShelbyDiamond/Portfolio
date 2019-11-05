@@ -1,22 +1,15 @@
 import React from "react"
 import ToDo from "./Projects/ToDo"
-import styled from "styled-components"
-
-const Heading = styled.h1`
-  font-size: 3rem;
-  color: black;
-  display: flex;
-  justify-content: center;
-  margin: 35px;
-  padding: 15px;
-`
+import { Heading } from "./Styles/styles"
+import VeganMeets from "./Projects/VeganMeets"
+import RVbnb from "./Projects/RVbnb"
 
 const Projects = () => {
   return (
     <div>
       <Heading>Check out some of my favorite projects!</Heading>
-      <ToDo />
-      <ToDo />
+      <VeganMeets />
+      <RVbnb />
       <ToDo />
     </div>
   )
