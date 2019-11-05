@@ -56,10 +56,10 @@ export const Navigation = styled.nav`
 `
 
 /// Home Page
-export const Header = styled.h2`
-  color: white;
-  font-size: 5rem;
-  padding: 50px;
+export const Div = styled.div`
+  width: 100%;
+  height: 100%;
+  position: relative;
 `
 export const Title = styled.p`
   color: white;
