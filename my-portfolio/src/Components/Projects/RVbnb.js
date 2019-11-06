@@ -31,7 +31,7 @@ const RVbnb = () => {
           Live Site
         </Buttons>
         <Buttons
-          href="https://github.com/ShelbyDiamond/React-Todo"
+          href="https://github.com/RVbnb/rvbnb_web_frontend"
           target="_blank"
         >
           GitHub Repo

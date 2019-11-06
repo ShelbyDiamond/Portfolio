@@ -7,6 +7,8 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
+  position: fixed;
+  top: 0;
   @media (max-width: 750px) {
     flex-direction: column;
     background: black;
@@ -55,31 +57,19 @@ export const Navigation = styled.nav`
   align-items: flex-end;
 `
 
-/// Home Page
-export const Div = styled.div`
-  width: 100%;
-  height: 100%;
-  position: relative;
-`
-export const Title = styled.p`
-  color: white;
-  font-size: 2rem;
-`
-export const ParentDiv2 = styled.div`
-  display: flex;
-`
-
 ///About Page
 export const ParentDiv1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 35px;
+  margin-top: 90px;
 `
 
 export const Image = styled.img`
-  width: 500px;
-  height: auto;
+  width: auto;
+
+  height: 550px;
   border-radius: 80%;
   display: inline-flex;
   text-align: right;
@@ -88,7 +78,7 @@ export const Image = styled.img`
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
 `
 export const Sentence = styled.p`
-  font-size: 3rem;
+  font-size: 3.5rem;
   display: inline-flex;
   color: white;
   position: relative;
@@ -96,18 +86,7 @@ export const Sentence = styled.p`
   align-content: center;
   margin: 15px;
   padding: 25px;
-  text-shadow: 0 0 30px #656565;
-
-  /* @keyframes glow {
-      to {
-        text-shadow: 1px 1px 2px #90b64c, 0 0 10px #90b64c;
-      }
-    }
-
-    & {
-      font-weight: bold;
-      animation: glow 0.5s infinite alternate;
-    } */
+  text-shadow: 1px 1px 2px red, 0 0 10em black, 0 0 0.2em blue;
 `
 export const Paragraphs = styled.p`
   font-size: 1.4rem;
@@ -126,11 +105,16 @@ export const Heading = styled.h1`
   margin: 35px;
   padding: 15px;
 `
+export const ParentDiv2 = styled.div`
+  margin-top: 90px;
+`
+
 /// Contact Page
 export const ParentDiv = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 90px;
 `
 export const HeaderDiv = styled.div`
   display: flex;
@@ -138,7 +122,7 @@ export const HeaderDiv = styled.div`
   flex-direction: column;
   width: 100%;
 `
-export const FormDiv = styled.div`
+export const FormDiv = styled.form`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -149,6 +133,7 @@ export const InputDiv = styled.div`
   flex-direction: column;
   width: 100%;
   justify-content: center;
+  margin-bottom: 15px;
 `
 export const H2Heading = styled.h2`
   color: white;
@@ -158,7 +143,6 @@ export const H2Heading = styled.h2`
 export const Label = styled.label`
   color: white;
   font-size: 1.5rem;
-  margin-right: 10px;
 `
 export const Input = styled.input`
   height: 35px;
@@ -172,19 +156,15 @@ export const TextArea = styled.textarea`
   width: 60%;
 `
 
-export const Button = styled.button`
+export const Input2 = styled.input`
   padding: 11px;
   border: 1px solid grey;
   background: rebeccapurple;
   margin: 25px;
-  display: inline-flex;
   justify-content: center;
-  flex-direction: column;
   font-size: 1.2rem;
-  text-decoration: none;
   width: 25%;
   color: white;
-  text-align: center;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
   &:hover {
     cursor: pointer;
@@ -198,7 +178,7 @@ export const BigContainer = styled.div`
   padding: 10px;
   margin: 25px;
   margin-left: 120px;
-  margin-bottom: 65px;
+  margin-top: 90px;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -262,8 +242,6 @@ export const Image2 = styled.img`
   border: 1px solid black;
   justify-content: center;
   display: flex;
-  /* justify-content: row;
-  margin-left: 18%; */
   width: 30%;
 `
 export const Image3 = styled.img`
@@ -273,8 +251,6 @@ export const Image3 = styled.img`
   border: 1px solid black;
   justify-content: center;
   display: flex;
-  /* justify-content: row; */
-  /* margin-right: 23%; */
   width: 30%;
 `
 export const ButtonDiv = styled.div`

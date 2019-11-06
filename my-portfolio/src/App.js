@@ -17,7 +17,7 @@ function App() {
         count={900}
         minSize={3}
         maxSize={7}
-        overflowPx={0}
+        overflowPx={400}
         fadeOutSpeed={20}
         newSparkleOnFadeOut={true}
         flicker={true}
