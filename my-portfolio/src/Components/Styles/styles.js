@@ -7,6 +7,8 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
+  position: fixed;
+  top: 0;
   @media (max-width: 750px) {
     flex-direction: column;
     background: black;
@@ -55,31 +57,19 @@ export const Navigation = styled.nav`
   align-items: flex-end;
 `
 
-/// Home Page
-export const Div = styled.div`
-  width: 100%;
-  height: 100%;
-  position: relative;
-`
-export const Title = styled.p`
-  color: white;
-  font-size: 2rem;
-`
-export const ParentDiv2 = styled.div`
-  display: flex;
-`
-
 ///About Page
 export const ParentDiv1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 35px;
+  margin-top: 70px;
 `
 
 export const Image = styled.img`
   width: auto;
-  height: 480px;
+
+  height: 550px;
   border-radius: 80%;
   display: inline-flex;
   text-align: right;
@@ -97,18 +87,6 @@ export const Sentence = styled.p`
   margin: 15px;
   padding: 25px;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  /* text-shadow: 0 0 50px #000000; */
-
-  /* @keyframes glow {
-      to {
-        text-shadow: 1px 1px 2px #90b64c, 0 0 10px #90b64c;
-      }
-    }
-
-    & {
-      font-weight: bold;
-      animation: glow 0.5s infinite alternate;
-    } */
 `
 export const Paragraphs = styled.p`
   font-size: 1.4rem;
