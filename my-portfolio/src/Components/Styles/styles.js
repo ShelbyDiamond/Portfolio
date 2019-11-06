@@ -142,11 +142,13 @@ export const FormDiv = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
+  margin: auto;
 `
 export const InputDiv = styled.div`
   flex-direction: column;
   width: 100%;
+  justify-content: center;
 `
 export const H2Heading = styled.h2`
   color: white;
@@ -163,11 +165,11 @@ export const Input = styled.input`
   font-size: 1rem;
   margin-bottom: 50px;
   border-radius: 10px;
-  width: 80%;
+  width: 60%;
 `
 export const TextArea = styled.textarea`
   height: 200px;
-  width: 80%;
+  width: 60%;
 `
 
 export const Button = styled.button`
