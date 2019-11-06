@@ -4,6 +4,7 @@ import {
   ParentDiv,
   InputDiv,
   HeaderDiv,
+  FormDiv,
   H2Heading,
   Label,
   Input,
@@ -15,26 +16,32 @@ import {
 const Contact = () => {
   return (
     <ParentDiv>
-      <form>
+      <FormDiv>
         <HeaderDiv>
           <H2Heading> Let's Connect!</H2Heading>
         </HeaderDiv>
         <InputDiv>
-          <Label>Name:</Label>
+          <div>
+            <Label>Name:</Label>
+          </div>
           <Input name="name" required />
         </InputDiv>
         <InputDiv>
-          <Label>Email:</Label>
+          <div>
+            <Label>Email:</Label>
+          </div>
           <Input name="email" required />
         </InputDiv>
         <InputDiv>
-          <Label>Message: </Label>
+          <div>
+            <Label>Message: </Label>
+          </div>
           <TextArea name="message" required />
         </InputDiv>
         <ButtonDiv>
           <Button>Submit</Button>
         </ButtonDiv>
-      </form>
+      </FormDiv>
     </ParentDiv>
   )
 }
