@@ -78,8 +78,8 @@ export const ParentDiv1 = styled.div`
 `
 
 export const Image = styled.img`
-  width: 500px;
-  height: auto;
+  width: auto;
+  height: 480px;
   border-radius: 80%;
   display: inline-flex;
   text-align: right;
@@ -88,7 +88,7 @@ export const Image = styled.img`
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
 `
 export const Sentence = styled.p`
-  font-size: 3rem;
+  font-size: 3.5rem;
   display: inline-flex;
   color: white;
   position: relative;
@@ -96,7 +96,8 @@ export const Sentence = styled.p`
   align-content: center;
   margin: 15px;
   padding: 25px;
-  text-shadow: 0 0 30px #656565;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  /* text-shadow: 0 0 50px #000000; */
 
   /* @keyframes glow {
       to {
@@ -138,7 +139,7 @@ export const HeaderDiv = styled.div`
   flex-direction: column;
   width: 100%;
 `
-export const FormDiv = styled.div`
+export const FormDiv = styled.form`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -149,6 +150,7 @@ export const InputDiv = styled.div`
   flex-direction: column;
   width: 100%;
   justify-content: center;
+  margin-bottom: 15px;
 `
 export const H2Heading = styled.h2`
   color: white;
@@ -158,7 +160,6 @@ export const H2Heading = styled.h2`
 export const Label = styled.label`
   color: white;
   font-size: 1.5rem;
-  margin-right: 10px;
 `
 export const Input = styled.input`
   height: 35px;
@@ -172,19 +173,15 @@ export const TextArea = styled.textarea`
   width: 60%;
 `
 
-export const Button = styled.button`
+export const Input2 = styled.input`
   padding: 11px;
   border: 1px solid grey;
   background: rebeccapurple;
   margin: 25px;
-  display: inline-flex;
   justify-content: center;
-  flex-direction: column;
   font-size: 1.2rem;
-  text-decoration: none;
   width: 25%;
   color: white;
-  text-align: center;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
   &:hover {
     cursor: pointer;

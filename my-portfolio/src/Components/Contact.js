@@ -9,14 +9,16 @@ import {
   Label,
   Input,
   TextArea,
-  Button,
-  ButtonDiv
+  Input2
 } from "./Styles/styles"
 
 const Contact = () => {
   return (
     <ParentDiv>
-      <FormDiv>
+      <FormDiv
+        action="https://mailthis.to/shelbydiamond518@gmail.com"
+        method="POST"
+      >
         <HeaderDiv>
           <H2Heading> Let's Connect!</H2Heading>
         </HeaderDiv>
@@ -38,9 +40,9 @@ const Contact = () => {
           </div>
           <TextArea name="message" required />
         </InputDiv>
-        <ButtonDiv>
-          <Button>Submit</Button>
-        </ButtonDiv>
+        <InputDiv>
+          <Input2 type="submit" value="Submit" />
+        </InputDiv>
       </FormDiv>
     </ParentDiv>
   )
