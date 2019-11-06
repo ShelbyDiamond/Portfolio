@@ -63,7 +63,7 @@ export const ParentDiv1 = styled.div`
   justify-content: center;
   align-items: center;
   margin: 35px;
-  margin-top: 70px;
+  margin-top: 90px;
 `
 
 export const Image = styled.img`
@@ -86,7 +86,7 @@ export const Sentence = styled.p`
   align-content: center;
   margin: 15px;
   padding: 25px;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  text-shadow: 1px 1px 2px red, 0 0 10em black, 0 0 0.2em blue;
 `
 export const Paragraphs = styled.p`
   font-size: 1.4rem;
@@ -105,11 +105,16 @@ export const Heading = styled.h1`
   margin: 35px;
   padding: 15px;
 `
+export const ParentDiv2 = styled.div`
+  margin-top: 90px;
+`
+
 /// Contact Page
 export const ParentDiv = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 90px;
 `
 export const HeaderDiv = styled.div`
   display: flex;
@@ -173,7 +178,7 @@ export const BigContainer = styled.div`
   padding: 10px;
   margin: 25px;
   margin-left: 120px;
-  margin-bottom: 65px;
+  margin-top: 90px;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -237,8 +242,6 @@ export const Image2 = styled.img`
   border: 1px solid black;
   justify-content: center;
   display: flex;
-  /* justify-content: row;
-  margin-left: 18%; */
   width: 30%;
 `
 export const Image3 = styled.img`
@@ -248,8 +251,6 @@ export const Image3 = styled.img`
   border: 1px solid black;
   justify-content: center;
   display: flex;
-  /* justify-content: row; */
-  /* margin-right: 23%; */
   width: 30%;
 `
 export const ButtonDiv = styled.div`
