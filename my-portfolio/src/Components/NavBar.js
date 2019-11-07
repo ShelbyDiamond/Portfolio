@@ -18,7 +18,6 @@ const NavBar = () => {
       <Navigation>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
-        <Link to="/resume">Resume</Link>
       </Navigation>
     </Wrapper>
   )

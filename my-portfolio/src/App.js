@@ -12,20 +12,28 @@ function App() {
     <div style={{ position: "relative" }}>
       <GlobalStyle />
       <NavBar />
-      <Sparkle
-        color={"#FFF"}
-        count={900}
-        minSize={3}
-        maxSize={7}
-        overflowPx={400}
-        fadeOutSpeed={20}
-        newSparkleOnFadeOut={true}
-        flicker={true}
-        flickerSpeed={"slowest"}
-      />
-      <Route exact path="/" component={About} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/contact" component={Contact} />
+      <div
+        style={{
+          width: "1200px",
+          display: "flex",
+          marginTop: "42px",
+          overflow: "hidden"
+        }}
+      >
+        <Sparkle
+          color={"#FFF"}
+          count={900}
+          minSize={3}
+          maxSize={7}
+          fadeOutSpeed={20}
+          newSparkleOnFadeOut={true}
+          flicker={true}
+          flickerSpeed={"slowest"}
+        />
+        <Route exact path="/" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
+      </div>
     </div>
   )
 }

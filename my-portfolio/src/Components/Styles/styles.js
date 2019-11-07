@@ -9,6 +9,8 @@ export const Wrapper = styled.div`
   flex-direction: row;
   position: fixed;
   top: 0;
+  align-items: center;
+
   @media (max-width: 750px) {
     flex-direction: column;
     background: black;
@@ -63,12 +65,10 @@ export const ParentDiv1 = styled.div`
   justify-content: center;
   align-items: center;
   margin: 35px;
-  margin-top: 90px;
 `
 
 export const Image = styled.img`
   width: auto;
-
   height: 550px;
   border-radius: 80%;
   display: inline-flex;
@@ -96,25 +96,11 @@ export const Paragraphs = styled.p`
   width: 50%;
   justify-content: center;
 `
-///Projects Page
-export const Heading = styled.h1`
-  font-size: 3rem;
-  color: black;
-  display: flex;
-  justify-content: center;
-  margin: 35px;
-  padding: 15px;
-`
-export const ParentDiv2 = styled.div`
-  margin-top: 90px;
-`
-
 /// Contact Page
 export const ParentDiv = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 90px;
 `
 export const HeaderDiv = styled.div`
   display: flex;
@@ -170,21 +156,40 @@ export const Input2 = styled.input`
     cursor: pointer;
   }
 `
+///Projects Page
+export const ParentDiv4 = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`
+export const Heading = styled.h1`
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  margin: 35px;
+  padding: 15px;
+`
+export const ParentDiv2 = styled.div`
+  width: 100%;
+`
+export const ComponentDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`
 
 /// Projects components!!!!
 /// ****** Based on the VeganMeets component ******
 export const BigContainer = styled.div`
-  border: 2px solid black;
   padding: 10px;
   margin: 25px;
-  margin-left: 120px;
-  margin-top: 90px;
-  width: 80%;
+  width: 40%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: lightgray;
+  background: white;
   align-content: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 `
 export const Heading1 = styled.h2`
   font-size: 1.8rem;
@@ -197,11 +202,11 @@ export const Image1 = styled.img`
   padding: 15px;
   margin: 15px;
   background-color: white;
-  border: 1px solid black;
   justify-content: center;
   display: flex;
   margin-left: 23%;
   width: 45%;
+  border-radius: 15px;
 `
 export const Description = styled.p`
   font-size: 1.2rem;
@@ -215,6 +220,7 @@ export const Description = styled.p`
 export const Buttons = styled.a`
   padding: 11px;
   border: 1px solid grey;
+  border-radius: 15px;
   background: rebeccapurple;
   margin: 25px;
   display: inline-flex;
@@ -239,19 +245,11 @@ export const Image2 = styled.img`
   padding: 15px;
   margin: 15px;
   background-color: white;
-  border: 1px solid black;
   justify-content: center;
   display: flex;
   width: 30%;
-`
-export const Image3 = styled.img`
-  padding: 15px;
-  margin: 15px;
-  background-color: white;
-  border: 1px solid black;
-  justify-content: center;
-  display: flex;
-  width: 30%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 `
 export const ButtonDiv = styled.div`
   display: flex;

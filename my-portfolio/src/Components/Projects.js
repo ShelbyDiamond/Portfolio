@@ -1,17 +1,21 @@
 import React from "react"
 import ToDo from "./Projects/ToDo"
-import { Heading, ParentDiv2 } from "./Styles/styles"
+import { Heading, ParentDiv2, ComponentDiv, ParentDiv4 } from "./Styles/styles"
 import VeganMeets from "./Projects/VeganMeets"
 import RVbnb from "./Projects/RVbnb"
 
 const Projects = () => {
   return (
-    <ParentDiv2>
+    <ParentDiv4>
       <Heading>Check out some of my favorite projects!</Heading>
-      <VeganMeets />
-      <RVbnb />
-      <ToDo />
-    </ParentDiv2>
+      <ParentDiv2>
+        <ComponentDiv>
+          <VeganMeets />
+          <RVbnb />
+        </ComponentDiv>
+        <ToDo />
+      </ParentDiv2>
+    </ParentDiv4>
   )
 }
 

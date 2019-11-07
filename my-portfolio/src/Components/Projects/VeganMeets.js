@@ -7,7 +7,7 @@ import {
   Heading1,
   BigContainer,
   Image2,
-  Image3,
+  // Image3,
   ImageDiv,
   ButtonDiv
 } from "../Styles/styles"
@@ -17,7 +17,7 @@ const VeganMeets = () => {
     <BigContainer>
       <Heading1>Vegan Meets</Heading1>
       <ImageDiv>
-        <Image3
+        <Image2
           src={image3}
           alt="screen shot of my models (or the way the code accepts data)."
         />

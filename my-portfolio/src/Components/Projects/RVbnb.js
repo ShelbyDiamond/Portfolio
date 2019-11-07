@@ -12,7 +12,7 @@ import {
 const RVbnb = () => {
   return (
     <BigContainer>
-      <Heading1>To-Do List</Heading1>
+      <Heading1>Rv bnb</Heading1>
       <div>
         <Image1 src={image} alt="screen shot of my finished project" />
       </div>
