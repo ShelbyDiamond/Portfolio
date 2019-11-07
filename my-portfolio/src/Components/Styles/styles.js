@@ -64,7 +64,7 @@ export const ParentDiv1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 35px;
+  margin: 35px 35px 0 35px;
 `
 
 export const Image = styled.img`
@@ -88,19 +88,13 @@ export const Sentence = styled.p`
   padding: 25px;
   text-shadow: 1px 1px 2px red, 0 0 10em black, 0 0 0.2em blue;
 `
-export const Paragraphs = styled.p`
-  font-size: 1.4rem;
-  color: white;
-  padding: 10px;
-  line-height: 35px;
-  width: 50%;
-  justify-content: center;
-`
+
 /// Contact Page
 export const ParentDiv = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 80px;
 `
 export const HeaderDiv = styled.div`
   display: flex;
@@ -136,10 +130,14 @@ export const Input = styled.input`
   margin-bottom: 50px;
   border-radius: 10px;
   width: 60%;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
 `
 export const TextArea = styled.textarea`
   height: 200px;
   width: 60%;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
 `
 
 export const Input2 = styled.input`
@@ -156,6 +154,28 @@ export const Input2 = styled.input`
     cursor: pointer;
   }
 `
+export const ParagraphDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 35%;
+  border-radius: 15px;
+`
+export const H5Title = styled.h5`
+  font-weight: 5px;
+  text-shadow: 0 0 1px grey;
+  padding-bottom: 5px;
+  align-self: center;
+`
+
+export const Paragraphs = styled.p`
+  font-size: 1rem;
+  color: black;
+  padding: 10px;
+  line-height: 20px;
+  display: column;
+`
+
 ///Projects Page
 export const ParentDiv4 = styled.div`
   display: flex;

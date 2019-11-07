@@ -16,8 +16,7 @@ function App() {
         style={{
           width: "1200px",
           display: "flex",
-          marginTop: "42px",
-          overflow: "hidden"
+          marginTop: "42px"
         }}
       >
         <Sparkle

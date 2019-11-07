@@ -13,7 +13,9 @@ const Projects = () => {
           <VeganMeets />
           <RVbnb />
         </ComponentDiv>
-        <ToDo />
+        <ComponentDiv>
+          <ToDo />
+        </ComponentDiv>
       </ParentDiv2>
     </ParentDiv4>
   )
