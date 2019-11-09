@@ -1,21 +1,25 @@
 import React from "react"
-import image from "../../images/RVbnb.PNG"
+import image2 from "../../images/RVbnb2.PNG"
 import {
   Buttons,
   Description,
   Heading1,
   BigContainer,
-  Image1,
-  ButtonDiv
+  ButtonDiv,
+  ImageDiv,
+  Image3
 } from "../Styles/styles"
 
 const RVbnb = () => {
   return (
     <BigContainer>
       <Heading1>Rv bnb</Heading1>
-      <div>
-        <Image1 src={image} alt="screen shot of my finished project" />
-      </div>
+      <ImageDiv>
+        <Image3
+          src={image2}
+          alt="screen shot of my models (or the way the code accepts data)."
+        />
+      </ImageDiv>
       <Description>
         In this project I was on a team with one other developer. Together we
         built an application for an RV owner to rent land Air bnb style, or a

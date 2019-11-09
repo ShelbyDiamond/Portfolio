@@ -7,15 +7,19 @@ import {
   Heading1,
   BigContainer,
   Image2,
-  // Image3,
+  TechParagraph,
   ImageDiv,
-  ButtonDiv
+  ButtonDiv,
+  TechDiv
 } from "../Styles/styles"
 
 const VeganMeets = () => {
   return (
     <BigContainer>
       <Heading1>Vegan Meets</Heading1>
+      <TechDiv>
+        <TechParagraph>Back End | Java</TechParagraph>
+      </TechDiv>
       <ImageDiv>
         <Image2
           src={image3}

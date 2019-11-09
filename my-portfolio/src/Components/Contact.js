@@ -50,9 +50,8 @@ const Contact = () => {
       <ParagraphDiv>
         <Paragraphs>
           <H5Title>About Me</H5Title>
-          When I was first deciding what I wanted to do for a career, helping
-          others was the top of the priority list. I decided to become a
-          kindergarten teacher to be apart of molding our future generations
+          Helping others has been the top of my priority list therefore I became
+          a kindergarten teacher to be apart of molding our future generations
           into kind and loving people.
           <br />
           <br />
@@ -62,7 +61,8 @@ const Contact = () => {
           pharmacy as much as my license would allow, and there was no more room
           to grow the corporate ladder.
           <br />
-          <br />I decided to take my skills of attention to detail, compassion,
+          <br />
+          I decided to take my skills of attention to detail, compassion,
           understanding, patience, and love of helping others and apply it to
           the coding industry. I had the amazing opportunity to partner with a
           non profit organization for 8 weeks called Miracle Messages and

@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <div
         style={{
-          width: "1200px",
+          width: "100%",
           display: "flex",
           marginTop: "42px"
         }}

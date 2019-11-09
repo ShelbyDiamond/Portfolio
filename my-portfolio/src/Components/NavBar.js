@@ -1,5 +1,5 @@
 import React from "react"
-import { Wrapper, LogoWrapper, Navigation } from "./Styles/styles"
+import { Wrapper, LogoWrapper, Navigation, Diamond } from "./Styles/styles"
 import diamond from "../images/diamond.png"
 import { Link } from "react-router-dom"
 
@@ -8,7 +8,7 @@ const NavBar = () => {
     <Wrapper>
       <LogoWrapper>
         <Link to="/">
-          <img src={diamond} alt="logo" />
+          <Diamond src={diamond} alt="logo" />
         </Link>
         <Link to="/">
           <h1>Shelby Diamond</h1>

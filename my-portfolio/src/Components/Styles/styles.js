@@ -11,21 +11,6 @@ export const Wrapper = styled.div`
   top: 0;
   align-items: center;
 
-  @media (max-width: 750px) {
-    flex-direction: column;
-    background: black;
-    justify-content: center;
-    padding-left: 30%;
-    padding-right: 30%;
-    flex-flow: column nowrap;
-  }
-
-  img {
-    width: 70px;
-    height: 60px;
-    border-radius: 5px;
-  }
-
   a {
     font-size: 1.2rem;
     color: #fff;
@@ -34,8 +19,21 @@ export const Wrapper = styled.div`
       flex-flow: column nowrap;
     }
   }
-`
 
+  @media (max-width: 750px) {
+    flex-direction: column;
+    background: black;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    flex-flow: column nowrap;
+  }
+`
+export const Diamond = styled.img`
+  width: 70px;
+  height: 60px;
+  border-radius: 5px;
+`
 export const LogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -123,6 +121,7 @@ export const H2Heading = styled.h2`
 export const Label = styled.label`
   color: white;
   font-size: 1.5rem;
+  margin-bottom: 25px;
 `
 export const Input = styled.input`
   height: 35px;
@@ -152,6 +151,8 @@ export const Input2 = styled.input`
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
   &:hover {
     cursor: pointer;
+    border: 1px solid white;
+    background: #a57db1;
   }
 `
 export const ParagraphDiv = styled.div`
@@ -162,6 +163,7 @@ export const ParagraphDiv = styled.div`
   border-radius: 15px;
 `
 export const H5Title = styled.h5`
+  font-size: 1.3rem;
   font-weight: 5px;
   text-shadow: 0 0 1px grey;
   padding-bottom: 5px;
@@ -254,6 +256,7 @@ export const Buttons = styled.a`
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
   &:hover {
     cursor: pointer;
+    background: #a57db1;
   }
 `
 export const ImageDiv = styled.div`
@@ -272,6 +275,27 @@ export const Image2 = styled.img`
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 `
 export const ButtonDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`
+export const Image3 = styled.img`
+  padding: 15px;
+  margin: 15px;
+  height: 200px;
+  width: auto;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+`
+export const TechParagraph = styled.p`
+  color: gray;
+  font-size: 0.8rem;
+  justify-content: center;
+  padding-top: 5px;
+`
+export const TechDiv = styled.div`
   display: flex;
   justify-content: center;
 `

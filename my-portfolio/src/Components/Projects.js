@@ -11,9 +11,9 @@ const Projects = () => {
       <ParentDiv2>
         <ComponentDiv>
           <VeganMeets />
-          <RVbnb />
         </ComponentDiv>
         <ComponentDiv>
+          <RVbnb />
           <ToDo />
         </ComponentDiv>
       </ParentDiv2>
